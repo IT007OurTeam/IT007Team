@@ -9,7 +9,9 @@
 #import "ViewController.h"
 #import <SMS_SDK/SMSSDK.h>
 
-@interface ViewController ()
+@interface ViewController (){
+    NSInteger abc;
+}
 
 @property (weak, nonatomic) IBOutlet UITextField *phoneTF;
 
